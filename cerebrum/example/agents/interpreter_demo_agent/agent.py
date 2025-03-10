@@ -19,3 +19,6 @@ class OpenInterpreterAgent:
         return final_result
 
 
+if __name__ == '__main__':
+    agent = OpenInterpreterAgent('OpenInterpreterAgent')
+    agent.run("How to caculate 1 + 100?")

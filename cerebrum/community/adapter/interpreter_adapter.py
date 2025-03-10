@@ -13,6 +13,7 @@ try:
     from interpreter import interpreter
 
 except ImportError as e:
+    print(e)
     raise ImportError(
         "Could not import interpreter python package. "
         "Please install it with `pip install open-interpreter`."
@@ -80,7 +81,7 @@ def adapter_aios_completions(**params):
                 ]
             }
             comletion["choices"][0]["delta"]["content"] = response["response_message"]
-            if response.tool_calls is not None:
+            if response["tool_calls"] is not None:
                 comletion["choices"][0]["delta"]["tool_calls"] = format_tool_calls_to_interpreter(response["tool_calls"])
 
             return [comletion]  # If the completion is successful, exit the function
