@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Scientific Research Analyzer",
+    "function": "Analyzes and summarizes complex scientific papers, extracts key findings, and generates layman-friendly explanations.",
+    "input_example": "A PDF or text of a research paper on quantum computing.",
+    "output_example": "Bullet-point summary, glossary of terms, and potential real-world applications."
+  },
+  {
+    "name": "Legal Clause Generator",
+    "function": "Drafts legally valid contract clauses based on jurisdiction-specific requirements and user-described scenarios.",
+    "input_example": "Need a non-disclosure agreement for software development in California.",
+    "output_example": "Customized NDA clause with termination conditions and IP protections."
+  },
+  {
+    "name": "Multimodal Data Interpreter",
+    "function": "Processes mixed text+table+chart inputs to generate integrated insights and predictive recommendations.",
+    "input_example": "CSV sales data + text description of market conditions.",
+    "output_example": "Trend analysis report with risk assessments in markdown format."
+  },
+  {
+    "name": "Cultural Context Adaptor",
+    "function": "Rewrites content while preserving meaning but adapting for regional linguistic norms and cultural sensitivities.",
+    "input_example": "Marketing slogan: 'Breakfast of Champions' for Japanese audience.",
+    "output_example": "3 culturally-adapted versions with rationale explanations."
+  },
+  {
+    "name": "Cognitive Bias Detector",
+    "function": "Identifies logical fallacies and cognitive biases in arguments with mitigation suggestions.",
+    "input_example": "Political speech transcript.",
+    "output_example": "Annotated text highlighting biases and neutralized versions."
+  },
+  {
+    "name": "Code-to-Narrative Translator",
+    "function": "Converts software codebases into technical documentation and user-facing feature descriptions.",
+    "input_example": "Python script for image processing.",
+    "output_example": "API documentation + non-technical user guide in parallel outputs."
+  },
+  {
+    "name": "Ethical Dilemma Simulator",
+    "function": "Generates branching scenario narratives with ethical consequences analysis.",
+    "input_example": "Prompt: Autonomous vehicle accident dilemma.",
+    "output_example": "Choose-your-own-adventure style story with impact scoring."
+  },
+  {
+    "name": "Historical Analogy Engine",
+    "function": "Draws parallels between current events and historical patterns with risk assessments.",
+    "input_example": "2023 banking crisis description.",
+    "output_example": "Comparison to 2008 crisis and 1929 depression with timeline visualizations."
+  },
+  {
+    "name": "Linguistic Archaeology Agent",
+    "function": "Traces word/phrase evolution across languages and historical periods.",
+    "input_example": "Word: 'Artificial Intelligence'.",
+    "output_example": "Etymology map showing path from Latin roots to modern usage."
+  },
+  {
+    "name": "Negotiation Strategy Builder",
+    "function": "Generates role-specific talking points and concession roadmaps based on party profiles.",
+    "input_example": "Labor union vs. management negotiation parameters.",
+    "output_example": "BATNA analysis and phased concession strategies for both sides."
+  },
+  {
+    "name": "Urban Planning Simulator",
+    "function": "Models city development scenarios with environmental and social impact projections.",
+    "input_example": "Zoning laws + population growth data.",
+    "output_example": "3D text-based city models with traffic/pollution simulations."
+  },
+  {
+    "name": "Personal Finance Transformer",
+    "function": "Converts raw financial data into multiple perspective reports (individual, tax, investor views).",
+    "input_example": "Bank statements + investment portfolio.",
+    "output_example": "Comparative analysis reports in different narrative formats."
+  },
+  {
+    "name": "Medical Literature Synthesizer",
+    "function": "Cross-references clinical studies to generate evidence-based treatment trees.",
+    "input_example": "Patient symptoms and existing medications.",
+    "output_example": "Diagnostic flowchart with cited research and drug interaction warnings."
+  },
+  {
+    "name": "Game Theory Analyzer",
+    "function": "Models strategic interactions and predicts equilibrium outcomes with visualization.",
+    "input_example": "Description of competitive market dynamics.",
+    "output_example": "Payoff matrices and Nash equilibrium explanations."
+  },
+  {
+    "name": "Multiverse Scenario Generator",
+    "function": "Creates branching alternative history/future scenarios with probability weightings.",
+    "input_example": "What if electricity was never commercialized?",
+    "output_example": "3 detailed alternative timelines with technological/cultural impacts."
+  }
+]
